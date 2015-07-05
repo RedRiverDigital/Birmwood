@@ -5,9 +5,11 @@ public class PauseMenu : MonoBehaviour {
 
 	public bool isPaused = false;
 	public GameObject pauseMenu;
+	public GameObject settingsMenu;
 
 	void Start () {
 		if(pauseMenu) pauseMenu.SetActive (false);
+		if(settingsMenu) settingsMenu.SetActive (false);
 		Time.timeScale = 1.0f;
 		isPaused = false;
 	}
@@ -23,6 +25,8 @@ public class PauseMenu : MonoBehaviour {
 			Time.timeScale = 1.0f;
 			isPaused = false;
 			if(pauseMenu) pauseMenu.SetActive(false);
+			if(settingsMenu) settingsMenu.SetActive (false);
+
 		}
 		else {
 			Time.timeScale = 0.0f;
