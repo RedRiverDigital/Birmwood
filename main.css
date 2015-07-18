@@ -1,0 +1,54 @@
+body {
+    background-image: url(bg.jpg);
+    background-position: 0% 23%;
+    background-size: 100%;
+}
+
+.banner {
+    position: fixed;
+    bottom: 50%;
+    left: 40%;
+    padding: 10px;
+}
+
+.base {
+    position: fixed;
+    bottom: 10%;
+    left: 30%;
+    color: lawngreen;
+    font-size: 18px;
+    font-family: 'Arial' sans-serif;
+}
+
+.base table {
+    width: 100%;
+}
+
+.base img {
+    width: 100px;
+}
+
+.base a {
+    color: springgreen;
+}
+
+.blank {
+    width: 100px;
+}
+
+.text {
+    position: fixed;
+    bottom: 30%;
+    left: 30%;
+    color: ivory;
+    font-size: 20px;
+    font-family: 'Arial' sans-serif;
+}
+
+.info {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    color: orange;
+    font-family: 'Consolas';
+}
