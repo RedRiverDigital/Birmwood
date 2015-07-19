@@ -1,35 +1,33 @@
 body {
     background-image: url(bg.jpg);
-    background-position: 0% 23%;
-    background-size: 100%;
+    background-position: 30% 45%, bottom left;
+    background-repeat: no-repeat;
 }
 
 .banner {
     position: fixed;
-    bottom: 50%;
-    left: 40%;
-    padding: 10px;
+    top: 30%;
+    left: 30%;
+    width: 80%
 }
 
 .base {
     position: fixed;
-    bottom: 10%;
+    top: 70%;
     left: 30%;
+    width: 80%;
     color: lawngreen;
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Arial' sans-serif;
 }
 
-.base table {
-    width: 100%;
-}
 
 .base img {
     width: 100px;
 }
 
 .base a {
-    color: springgreen;
+    color: ivory;
 }
 
 .blank {
@@ -38,14 +36,16 @@ body {
 
 .text {
     position: fixed;
-    bottom: 30%;
+    top: 50%;
     left: 30%;
+    width: 80%;
     color: ivory;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Arial' sans-serif;
 }
 
 .info {
+    background-color: black;
     position: fixed;
     right: 0px;
     bottom: 0px;
